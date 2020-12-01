@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 import tkinter.messagebox
-
+#default password is aditya
 
 # ****** GLOBAL VARIABLES ******
 diree="C:/Users/user/Desktop/Aditya/Pythonnew/Programs/accounts.txt"
@@ -29,7 +29,7 @@ class popupWindow(object):
 
     def cleanup(self):
         self.value = self.e.get()
-        access = 'tim'
+        access = 'aditya'
 
         if self.value == access:
             self.loop = True
